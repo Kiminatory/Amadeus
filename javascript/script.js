@@ -595,23 +595,23 @@ const propertyObj = {
 
     "99": "Активно-пассивный счет",
 
-    "001": "Арендованные основные средства",
-    "002": "Товарно-материальные ценности, принятые на ответственное хранение",
-    "003": "Материалы, принятые в переработку",
-    "004": "Товары, принятые на комиссию",
-    "005": "Оборудование, принятое для монтажа",
-    "006": "Бланки строгой отчетности",
-    "007": "Списанная в убыток задолженность неплатежеспособных дебиторов",
-    "008": "Обеспечения обязательств и платежей полученные",
-    "009": "Обеспечения обязательств и платежей выданные",
-    "010": "Износ основных средств",
-    "011": "Основные средства, сданные в аренду",
+    "001": "",
+    "002": "",
+    "003": "",
+    "004": "",
+    "005": "",
+    "006": "",
+    "007": "",
+    "008": "",
+    "009": "",
+    "010": "",
+    "011": "",
 }
 
 
 // Таблица --------------------------------------------------
 
-const search = document.querySelector('.search');
+const search = document.querySelector('.btn');
 
 search.addEventListener('click', function () {
     let input = document.querySelector('input').value // Значение инпута
@@ -670,24 +670,90 @@ search.addEventListener('click', function () {
 
 // Меню --------------------------------------------------
 
-const openTable = document.querySelector('.list_section_table')
 
+
+const backMenu = document.querySelector('.header__name-logo')
+backMenu.addEventListener('click', function (e) {
+
+    const menu = document.querySelector('.section_menu')
+    menu.classList.remove("none");
+
+    // выход из табл
+
+    const table = document.querySelector('.section_table')
+    table.classList.add("none");
+
+    // выход из списка имен
+
+    const listName = document.querySelector('.section_info-name')
+    listName.classList.add("none");
+
+    // выход из расписания звонков
+
+    const schedule = document.querySelector('.section_schedule');
+    schedule.classList.add("none");
+});
+
+const openTable = document.querySelector('.list_section_table')
 openTable.addEventListener('click', function () {
     const menu = document.querySelector('.section_menu')
     menu.classList.toggle("none");
     // Переключает таблицу
     const table = document.querySelector('.section_table')
-    table.classList.toggle("none");
+    table.classList.remove("none");
 });
 
-const backMenu = document.querySelector('.header__name-logo')
-backMenu.addEventListener('click', function (e) {
+const openName = document.querySelector('.list_section_name')
+openName.addEventListener('click', function (e) {
     const menu = document.querySelector('.section_menu')
-    menu.classList.remove("none");
+    menu.classList.add("none");
     // Переключает таблицу
-    const table = document.querySelector('.section_table')
-    table.classList.add("none");
+    const listName = document.querySelector('.section_info-name')
+    listName.classList.remove("none");
 });
+
+const openSchedule = document.querySelector('.list_section_schedule')
+openSchedule.addEventListener('click', function (e) {
+    const menu = document.querySelector('.section_menu')
+    menu.classList.add("none");
+    // Переключает таблицу
+    const schedule = document.querySelector('.section_schedule')
+    schedule.classList.remove("none");
+});
+
+
+
+
 
 // -------------------------------------------------------
+
+// switch (key) {
+//     case 'green':
+//         console.log('иди')
+//         break;
+//     case 'yellow':
+//         console.log('иди')
+//         break;
+//     case 'green':
+//         console.log('иди')
+//         break;
+//     default:
+//         console.log('неправильный цвет')
+//         break;
+// }
+
+
+let data = [
+    'Воскресенье', 'Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота',
+]
+
+let myDay = new Date()
+console.log(myDay)
+console.log(data[myDay.getDay()])
+
+if (data[myDay.getDay()] === 'Понедельник') {
+    console.log('Только в понедельник')
+} else {
+    console.log('Все остальные дни')
+}
 
