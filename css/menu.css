@@ -1,0 +1,141 @@
+.section_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_menu_nav {}
+
+.list_menu {
+    padding: 0;
+}
+
+.li {}
+
+.list_menu_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 20vw;
+    height: 5.5vw;
+    font-size: 3rem;
+    border: 1px solid #fff;
+    background-color: rgba(0, 0, 0, 0.462);
+    color: #fff;
+    /* padding: 10px; */
+    font-weight: 500;
+}
+
+.list_section_table {}
+
+.list_section_name {}
+
+.list_section_couples {}
+
+.list_section_schedule {}
+
+/* ========================== */
+
+@media(max-width: 1368px) {
+    .list_menu_link {
+        width: 44vw;
+        height: 9vw;
+        font-size: 39px;
+    }
+}
+
+@media(max-width: 1180px) {
+    .list_menu_link {
+        width: 44vw;
+        height: 9vw;
+        font-size: 39px;
+    }
+}
+
+@media(max-width: 915px) {
+    .list_menu_link {
+        width: 50vw;
+        height: 7vw;
+        font-size: 26px;
+    }
+}
+
+@media(max-width: 912px) {
+    .list_menu_link {
+        width: 62vw;
+        height: 20vw;
+        font-size: 5.4rem;
+    }
+}
+
+@media(max-width: 896px) {
+    .list_menu_link {
+        width: 62vw;
+        height: 20vw;
+        font-size: 4.9rem;
+    }
+}
+
+@media(max-width: 768px) {
+    .list_menu_link {
+        width: 58vw;
+        height: 17vw;
+        font-size: 4.2rem;
+    }
+}
+
+@media(max-width: 720px) {
+    .list_menu_link {
+        width: 50vw;
+        height: 9vw;
+        font-size: 2.8rem;
+    }
+}
+
+@media(max-width: 667px) {
+    .list_menu_link {
+        width: 50vw;
+        height: 8vw;
+        font-size: 26px;
+    }
+}
+
+/* -------------------------- */
+@media(max-width: 540px) {
+    .section_menu {
+        margin: -25px 0 0;
+    }
+
+    .list_menu_link {
+        width: 71vw;
+        height: 17vw;
+        font-size: 31px;
+    }
+}
+
+@media(max-width: 414px) {
+    .list_menu_link {
+        width: 81vw;
+        height: 28vw;
+        font-size: 3.1rem;
+    }
+}
+
+@media(max-width: 375px) {
+    .list_menu_link {
+        width: 65vw;
+        height: 20vw;
+        font-size: 2.5rem;
+
+    }
+}
+
+@media(max-width: 360px) {
+    .list_menu_link {
+        width: 75vw;
+        height: 25vw;
+        font-size: 2.5rem;
+
+    }
+}
