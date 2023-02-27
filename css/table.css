@@ -133,6 +133,7 @@
 
   .sub_td {
     height: 525px;
+    height: 58vh;
   }
 
   .nameCheck {
@@ -230,7 +231,8 @@
   }
 
   .sub_td {
-    height: 430px;
+    /* height: 430px; */
+    height: 53vh;
   }
 
   .nameCheck {
@@ -329,6 +331,7 @@
 
   .sub_td {
     height: 430px;
+    height: 36vw;
   }
 
   .nameCheck {
@@ -514,6 +517,7 @@
 
   .sub_td {
     height: 275px;
+    height: 46vh;
   }
 
   .nameCheck {
@@ -611,7 +615,8 @@
   }
 
   .sub_td {
-    height: 143px;
+    /* height: 143px; */
+    height: 34vh;
   }
 
   .nameCheck {
@@ -710,6 +715,7 @@
 
   .sub_td {
     height: 242px;
+    height: 44vh;
   }
 
   .nameCheck {
@@ -808,6 +814,7 @@
 
   .sub_td {
     height: 143px;
+    height: 38vh;
   }
 
   .nameCheck {
@@ -906,6 +913,7 @@
 
   .sub_td {
     height: 71px;
+    height: 26vh;
   }
 
   .nameCheck {
