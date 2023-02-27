@@ -1,0 +1,96 @@
+.section_table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title_mobile {
+    display: none;
+}
+
+.table__result {}
+
+.table {}
+
+.tr {}
+
+.td {
+    border: 1px solid #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.462);
+    font-size: 2.5rem;
+}
+
+.td_title {
+
+    width: 18vw;
+    padding: 10px;
+}
+
+.title_name-check {}
+
+.title_number-check {}
+
+.title_name-subcheck {}
+
+.title_property {}
+
+.sub_td {
+    height: 55vh;
+}
+
+.nameCheck {}
+
+.numberCheck {}
+
+.nameSubcheck {
+    overflow-y: auto;
+}
+
+.nameSubcheck::-webkit-scrollbar {
+    overflow-y: auto;
+    display: none;
+}
+
+.result {
+    border: 1px solid #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+.property {}
+
+.table__input {}
+
+.input {
+    width: 56.1vw;
+}
+
+.input::placeholder {
+    color: #fff;
+}
+
+input::-webkit-search-cancel-button {
+    display: none;
+}
+
+.search {
+    border: 1px solid #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.462);
+    height: 5.5vh;
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.btn {
+    width: 18.49vw;
+}
+
+.block {
+    display: block;
+}
+
+.none {
+    display: none;
+}
