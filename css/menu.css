@@ -1,0 +1,288 @@
+.section_menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 30px 0;
+}
+
+.section_menu_nav {
+}
+
+.list_menu {
+  padding: 0;
+}
+
+.li {
+}
+
+.list_menu_link {
+  border: 1px solid #fff;
+  background-color: rgba(0, 0, 0, 0.462);
+  font-size: 3rem;
+  width: 23vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 15px;
+  font-weight: 500;
+}
+
+.list_section_table {
+}
+
+.list_section_name {
+}
+
+.list_section_couples {
+}
+
+.list_section_schedule {
+}
+
+/* ========================== */
+
+@media (max-width: 1024px) {
+  .section_menu {
+    margin: 0 0 30px 0;
+  }
+
+  .list_menu_link {
+    width: 41vw;
+    height: 6vh;
+    font-size: 3.2rem;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .section_menu {
+    margin: 0 0 30px 0;
+  }
+
+  .list_menu_link {
+    width: 33vw;
+    height: 9vh;
+    font-size: 3.5rem;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .section_menu {
+    margin: 0 0 30px 0;
+  }
+
+  .list_menu_link {
+    width: 36vw;
+    height: 6vh;
+    font-size: 30px;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 912px) {
+  .section_menu {
+    margin: 0 0 30px 0;
+  }
+
+  .list_menu_link {
+    width: 50vw;
+    height: 10vh;
+    font-size: 3.5rem;
+    padding: 15px;
+  }
+}
+
+@media (max-height: 912px) {
+  .section_menu {
+    margin: 0 0 30px 0;
+  }
+
+  .list_menu_link {
+    width: 44vw;
+    height: 12vh;
+    font-size: 4rem;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 896px) {
+  .section_menu {
+    margin: 0 0 30px 0;
+  }
+
+  .list_menu_link {
+    width: 59vw;
+    height: 10vh;
+    font-size: 3.5rem;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 820px) {
+  .section_menu {
+    margin: 0 0 30px 0;
+  }
+
+  .list_menu_link {
+    width: 59vw;
+    height: 10vh;
+    font-size: 3.5rem;
+    padding: 15px;
+  }
+}
+
+@media (max-height: 820px) {
+  .section_menu {
+    margin: 0 0 30px 0;
+  }
+
+  .list_menu_link {
+    width: 50vw;
+    height: 10vh;
+    font-size: 3.5rem;
+    padding: 15px;
+  }
+}
+
+/* @media(max-width: 667px) {
+    .section_menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: -23px 0 30px 0;
+    }
+
+    .list_menu_link {
+        width: 51vw;
+        height: 5vh;
+        font-size: 2.7rem;
+        padding: 15px;
+    }
+} */
+
+@media (max-width: 540px) {
+  .section_menu {
+    margin: 0 0 30px 0;
+  }
+
+  .list_menu_link {
+    width: 63vw;
+    height: 7vh;
+    font-size: 26px;
+    padding: 15px;
+  }
+}
+
+@media (max-height: 540px) {
+  .section_menu {
+    margin: -26px 0 30px 0;
+  }
+
+  .list_menu_link {
+    width: 63vw;
+    height: 8vh;
+    font-size: 26px;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 414px) {
+  .section_menu {
+    margin: 0 0 30px 0;
+  }
+
+  .list_menu_link {
+    width: 72vw;
+    height: 9vh;
+    font-size: 3rem;
+    padding: 15px;
+  }
+}
+
+@media (max-height: 414px) {
+  .section_menu {
+    margin: -24px 0 30px 0;
+  }
+
+  .list_menu_link {
+    width: 46vw;
+    height: 7vh;
+    font-size: 3rem;
+    padding: 15px;
+  }
+}
+
+@media (max-height: 390px) {
+  .section_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -23px 0 30px 0;
+  }
+
+  .list_menu_link {
+    width: 51vw;
+    height: 6vh;
+    font-size: 2.7rem;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 375px) {
+  .section_menu {
+    margin: 0 0 30px 0;
+  }
+
+  .list_menu_link {
+    width: 65vw;
+    height: 7vh;
+    font-size: 2.4rem;
+    padding: 15px;
+  }
+}
+
+@media (max-height: 375px) {
+  .section_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -23px 0 30px 0;
+  }
+
+  .list_menu_link {
+    width: 51vw;
+    height: 5vh;
+    font-size: 2.7rem;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 280px) {
+  .section_menu {
+    margin: 0 0 30px 0;
+  }
+
+  .list_menu_link {
+    width: 72vw;
+    height: 7vh;
+    font-size: 2.2rem;
+    padding: 15px;
+  }
+}
+
+@media (max-height: 280px) {
+  .section_menu {
+    margin: -28px 0 30px 0;
+  }
+
+  .list_menu_link {
+    width: 51vw;
+    height: 4vh;
+    font-size: 2.3rem;
+    padding: 15px;
+  }
+}
