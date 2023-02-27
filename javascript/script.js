@@ -743,7 +743,7 @@ let windowWidth = window.innerWidth
 
 titleDay.textContent = dayData[myDay.getDay()].toUpperCase()
 
-if (dayData[myDay.getDay()] === 'Вторник' && windowWidth < 1500) {
+if (dayData[myDay.getDay()] === 'Понедельник' && windowWidth < 1500) {
     dayAll.classList.add('hidden')
     daySchedule.classList.add('hidden')
     titleDay.remove()
