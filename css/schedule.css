@@ -33,7 +33,7 @@
   justify-content: center;
   align-items: center;
   border: 1px solid #fff;
-/*   background-color: rgba(0, 0, 0, 0.621); */
+  background-color: rgba(0, 0, 0, 0.621);
   font-size: 1.6rem;
   color: #fff;
   height: 65px;
@@ -130,6 +130,10 @@
   .td_all {
     padding: 15px;
   }
+  .td_monday {
+    padding: 7px;
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 820px) and (orientation: portrait) {
@@ -213,6 +217,10 @@
   .td_all {
     padding: 11px;
   }
+  .td_monday {
+    padding: 7px;
+    font-size: 20px;
+  }
 }
 @media (max-height: 540px) and (orientation: landscape) {
   .section_schedule {
@@ -278,7 +286,7 @@
     height: 65px;
   }
   .td_schedule {
-    font-size: 21px;
+    font-size: 25px;
     padding: 14px;
   }
   .td_all {
@@ -325,7 +333,84 @@
     padding: 15px;
   }
 }
+@media (max-width: 393px) and (orientation: portrait) {
+  .section_schedule {
+    margin: -10px 0 0 0;
+  }
+  .btn_schedule {
+  }
+  .btn_schedule button {
+    font-size: 2rem;
+    padding: 15px;
+    margin: 0 20px;
+  }
+  .monday {
+  }
+  .schedule-schedule {
+    display: flex;
+    justify-content: center;
+  }
+  .schedule_monday {
+  }
 
+  .title_schedule {
+    display: none;
+  }
+  .subtitle_schedule {
+    font-size: 16px;
+    height: 50px;
+  }
+  .td_schedule {
+    font-size: 24px;
+    padding: 12px;
+  }
+  .td_all {
+    padding: 10px;
+  }
+  .td_monday {
+    padding: 7px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 390px) and (orientation: portrait) {
+  .section_schedule {
+    margin: -10px 0 0 0;
+  }
+  .btn_schedule {
+  }
+  .btn_schedule button {
+    font-size: 2rem;
+    padding: 15px;
+    margin: 0 20px;
+  }
+  .monday {
+  }
+  .schedule-schedule {
+    display: flex;
+    justify-content: center;
+  }
+  .schedule_monday {
+  }
+
+  .title_schedule {
+    display: none;
+  }
+  .subtitle_schedule {
+    font-size: 16px;
+    height: 50px;
+  }
+  .td_schedule {
+    font-size: 23px;
+    padding: 12px;
+  }
+  .td_all {
+    padding: 10px;
+  }
+  .td_monday {
+    padding: 7px;
+    font-size: 20px;
+  }
+}
 @media (max-width: 375px) and (orientation: portrait) {
   .section_schedule {
     margin: -10px 0 0 0;
@@ -354,11 +439,15 @@
     height: 50px;
   }
   .td_schedule {
-    font-size: 18px;
+    font-size: 22px;
     padding: 12px;
   }
   .td_all {
     padding: 12px;
+  }
+  .td_monday {
+    padding: 7px;
+    font-size: 20px;
   }
 }
 @media (max-height: 375px) and (orientation: landscape) {
@@ -394,6 +483,45 @@
   }
   .td_all {
     padding: 15px;
+  }
+}
+@media (max-width: 360px) and (orientation: portrait) {
+  .section_schedule {
+    margin: -10px 0 0 0;
+  }
+  .btn_schedule {
+  }
+  .btn_schedule button {
+    font-size: 2rem;
+    padding: 15px;
+    margin: 0 20px;
+  }
+  .monday {
+  }
+  .schedule-schedule {
+    display: flex;
+    justify-content: center;
+  }
+  .schedule_monday {
+  }
+
+  .title_schedule {
+    display: none;
+  }
+  .subtitle_schedule {
+    font-size: 16px;
+    height: 50px;
+  }
+  .td_schedule {
+    font-size: 22px;
+    padding: 12px;
+  }
+  .td_all {
+    padding: 9px;
+  }
+  .td_monday {
+    padding: 8px;
+    font-size: 19px;
   }
 }
 @media (max-width: 280px) and (orientation: portrait) {
